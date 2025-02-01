@@ -67,4 +67,16 @@ If you ever decide to make a new feature, **make sure to do it to a new branch!*
 - To navigate to a new branch, just do `$ git checkout -b newBranchName`, and start working!
 - Just remember when you push changes, push it to this branch, i.e `$ git push origin newBranchName`
 
+### 4. Getting latest changes
+
+Make sure the **main** branch always has the current changes. To easily do this, just run the following **(do this after ANY pull requests have been pushed to the main branch!**
+
+- `$ git checkout main` to switch to the main branch
+- `$ git fetch upstream`
+- `$ git rebase upstream/main`, and you're done!
+
+### **_Important: you should never be working in the main branch, this will cause conflicts!_**
+
+- Run `git branch` too see what current branch you're in **(starred branch is the one you are currently in!)**
+
 That is it for contributing! Again, you need to **pull changes, create a new branch with the branch name being what feature you are going to work on, code whatever you need to, push changes to GitHub, then create a pull request!**
