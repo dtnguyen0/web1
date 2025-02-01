@@ -10,8 +10,8 @@ Welcome to the website for `Ineed.io`! Below are all the things that you will ne
    ![Fork](https://i.imgur.com/jB7NW0x.png)
 2. Clone the forked repo: `$ git clone <SSH/HTTPS Link of forked repo>`
 3. Navigate to the cloned repo: `$ cd <name of folder>`
-4. Install all packages: `$ npm i` or `$ yarn install`
-5. Start the server: `$ npm run dev`
+4. Install yarn: `$ npm i -g yarn`
+5. Start the server: `$ yarn dev`
 
 ## Contributing 📜
 

@@ -1,3 +1,3 @@
 export const Nothing = (): void => {
-console.log('HI')
+  console.log('HI');
 };
