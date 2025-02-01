@@ -60,4 +60,11 @@ This section will cover how to actually submit changes that you made (i.e new fe
 - Submit the pull request
   ![Submit](https://i.imgur.com/qzdNmkK.png)
 
+### 3. Updating changes to a branch
+
+If you ever decide to make a new feature, **make sure to do it to a new branch!** **_Never have a feature that you worked on later in the same branch, just make a new branch and work there!_**
+
+- To navigate to a new branch, just do `$ git checkout -b newBranchName`, and start working!
+- Just remember when you push changes, push it to this branch, i.e `$ git push origin newBranchName`
+
 That is it for contributing! Again, you need to **pull changes, create a new branch with the branch name being what feature you are going to work on, code whatever you need to, push changes to GitHub, then create a pull request!**
