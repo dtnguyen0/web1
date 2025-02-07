@@ -21,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          {children}git
         </ThemeProvider>
       </body>
     </html>
